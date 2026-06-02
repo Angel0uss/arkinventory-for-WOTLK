@@ -1,4 +1,8 @@
-﻿# 3.12.12 (22-APR-2026)
+﻿# 3.12.13 (03-JUN-2026)
+ - https://github.com/arkayenro/arkinventory/issues/2147 - issue with tooltip:GetUnit accessing secure values
+ - updated - category for some items
+
+# 3.12.12 (22-APR-2026)
  - fixed - issue with replacing bags when it requires accepting a bind prompt
  - updated - (retail) toc to 12.0.5
  - updated - category for some items
