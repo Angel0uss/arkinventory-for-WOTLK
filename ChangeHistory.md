@@ -1,6 +1,5 @@
-﻿# 3.12.13 (03-JUN-2026)
- - https://github.com/arkayenro/arkinventory/issues/2147 - issue with tooltip:GetUnit accessing secure values
- - updated - category for some items
+﻿# 3.12.13 Alpha 1 (09-JUN-2026)
+ - fixed - workaround for bank tab purchases
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
