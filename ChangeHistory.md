@@ -1,4 +1,8 @@
-﻿# 3.12.13 Alpha 1 (09-JUN-2026)
+﻿# 3.12.13 Alpha 2 (10-JUN-2026)
+ - fixed - workaround for bank tab purchases
+ - fixed - added TooltipValidateDataFromSetTradeSkillItem
+
+# 3.12.13 Alpha 1 (09-JUN-2026)
  - fixed - workaround for bank tab purchases
 
 # known issues post 11.2
