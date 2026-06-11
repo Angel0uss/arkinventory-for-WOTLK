@@ -1,4 +1,7 @@
-﻿# 3.12.13 Alpha 2 (10-JUN-2026)
+﻿# 3.12.13 Alpha 3 (11-JUN-2026)
+ - fixed - (maybe) AceEvent issue where bags/bank stop updating after you hearth or take a portal
+
+# 3.12.13 Alpha 2 (10-JUN-2026)
  - fixed - workaround for bank tab purchases
  - fixed - added TooltipValidateDataFromSetTradeSkillItem
 
