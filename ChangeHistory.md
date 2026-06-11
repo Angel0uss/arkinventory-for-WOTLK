@@ -1,12 +1,12 @@
 ﻿# 3.12.13 Alpha 3 (11-JUN-2026)
- - fixed - (maybe) AceEvent issue where bags/bank stop updating after you hearth or take a portal
+ - fixed - (maybe) https://github.com/arkayenro/arkinventory/issues/2150 issue where bags/bank stop updating after you hearth, portal, enter/leave an instance, etc (anything that generates a loading screen)
 
 # 3.12.13 Alpha 2 (10-JUN-2026)
- - fixed - workaround for bank tab purchases
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2149 workaround for bank tab purchases
  - fixed - added TooltipValidateDataFromSetTradeSkillItem
 
 # 3.12.13 Alpha 1 (09-JUN-2026)
- - fixed - workaround for bank tab purchases
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2149 workaround for bank tab purchases
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously

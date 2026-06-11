@@ -3,25 +3,25 @@
  - updated - category for some items
 
 # 3.12.12 (22-APR-2026)
- - fixed - issue with replacing bags when it requires accepting a bind prompt
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2145 issue with replacing bags when it requires accepting a bind prompt
  - updated - (retail) toc to 12.0.5
  - updated - category for some items
 
 # 3.12.11 (01-APR-2026)
- - fixed - issue with profession quality icons for crafting items
- - fixed - issue with tooltip settext and secret values
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2131 issue with profession quality icons for crafting items
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2147 issue with tooltip settext and secret values
  - updated - category for some items
 
 # 3.12.10 (09-MAR-2026)
  - fixed - issue with profession quality icons for midnight reagents
  - changed - default profession quality icon size from 30 to 20 due to new icons
- - fixed - issue with item rack outfit function
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2117 issue with item rack outfit function
  - fixed - issue with bankuisync causing the tab purchase popup to appear if you havent purchased any bank tabs/bags
  - fixed - issue with current expansion level value
  - fixed - issue generating repuatation standing text
  - fixed - issue with paragon standing text
- - fixed - issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
- - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2122 issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2120 issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
  - fixed - issue with some factions showing as paragon instead of renown
  - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
  - changed - when a location is locked its bags will no longer be scanned to preserve the saved data.  if you backup the savedvariables file, before its unlocked and you access that location again, you should have a list of all items that were in there before in the event blizard loses them.
@@ -81,7 +81,7 @@
  - fixed - (timerunning) issue with display code for timerunning characters
  - updated - debug menu line for data ready with more information, eg retry count and dead state
  - deleted - all void storage data now that its no longer in game
- - workaround - bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
+ - workaround - https://github.com/arkayenro/arkinventory/issues/2081 bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
 
 # 3.12.03 (14-AUG-2025)
  - added - config > profiles > bank > general > Reselect tabs - can remember which tab was last selected and will re-select it when the window is re-opened.  can be set to never, per session, or always.
