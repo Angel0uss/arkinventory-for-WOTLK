@@ -1,4 +1,11 @@
-﻿# 3.12.13 (03-JUN-2026)
+﻿# 3.12.14 (17-JUN-2026)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2150 issue where bags/bank stop updating after you hearth, portal, enter/leave an instance, etc (anything that generates a loading screen)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2149 workaround for bank tab purchases
+ - fixed - added TooltipValidateDataFromSetTradeSkillItem
+ - updated - (retail) toc to 12.0.7
+ - updated - (mop) toc to 5.5.4
+
+# 3.12.13 (03-JUN-2026)
  - https://github.com/arkayenro/arkinventory/issues/2147 - issue with tooltip:GetUnit accessing secure values
  - updated - category for some items
 

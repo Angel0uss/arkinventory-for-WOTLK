@@ -1,6 +1,6 @@
-﻿# ArkInventory (for The War Within)
+﻿# ArkInventory (for Midnight)
 
-**:boom: Please ensure you are using the latest alpha version if you have the War Within client.**
+**:boom: Please ensure you are using the latest alpha version if you have the Midnight client.**
 
 <br>
 
