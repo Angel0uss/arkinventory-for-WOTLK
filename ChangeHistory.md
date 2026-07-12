@@ -1,9 +1,5 @@
-﻿# 3.12.14 (17-JUN-2026)
- - fixed - https://github.com/arkayenro/arkinventory/issues/2150 issue where bags/bank stop updating after you hearth, portal, enter/leave an instance, etc (anything that generates a loading screen)
- - fixed - https://github.com/arkayenro/arkinventory/issues/2149 workaround for bank tab purchases
- - fixed - added TooltipValidateDataFromSetTradeSkillItem
- - updated - (retail) toc to 12.0.7
- - updated - (mop) toc to 5.5.4
+﻿# 3.12.14 Alpha 1 (12-JUN-2026)
+ - fixed - issue with mount location not initialising properly
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
