@@ -1,4 +1,9 @@
-﻿# 3.12.14 (17-JUN-2026)
+﻿# 3.12.15 (23-JUL-2026)
+ - updated - (bcc) toc to 2.5.6
+ - updated - (classic) toc to 1.15.9
+ - fixed - issue with mount location not initialising properly
+
+# 3.12.14 (17-JUN-2026)
  - fixed - https://github.com/arkayenro/arkinventory/issues/2150 issue where bags/bank stop updating after you hearth, portal, enter/leave an instance, etc (anything that generates a loading screen)
  - fixed - https://github.com/arkayenro/arkinventory/issues/2149 workaround for bank tab purchases
  - fixed - added TooltipValidateDataFromSetTradeSkillItem

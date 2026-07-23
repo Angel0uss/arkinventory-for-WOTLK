@@ -1,4 +1,6 @@
-﻿# 3.12.14 Alpha 1 (12-JUN-2026)
+﻿# 3.12.15 (23-JUL-2026)
+ - updated - (bcc) toc to 2.5.6
+ - updated - (classic) toc to 1.15.9
  - fixed - issue with mount location not initialising properly
 
 # known issues post 11.2
