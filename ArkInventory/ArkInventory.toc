@@ -1,15 +1,9 @@
 ## Interface: 30300
-## X-Compatible-With: 40000
-## X-Curse-Packaged-Version: 3.02.54 BETA 17-00-Cataclysm
-## X-Curse-Project-Name: ArkInventory
-## X-Curse-Project-ID: ark-inventory
-## X-Curse-Repository-ID: wow/ark-inventory/mainline
 
 ## Title: ArkInventory
-## Title-zhCN: [背包]ArkInventory 整合背包银行
-## Author: Arkayenro
-## Email: arkayenro at gmail dot com
-## Version: 3.02
+## Author: Arkayenro 
+## FIX : Angel0uss
+## Version: 3.1 (08-11-2026)
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## SavedVariables: ARKINVDB
@@ -24,7 +18,7 @@
 ## X-Embeds: Ace3, AceGUI-3.0-SharedMediaWidgets, LibPeriodicTable-3.1, LibSharedMedia-3.0, LibBabble-Zone-3.0
 
 ## X-Category: Inventory
-## X-Website: http://arkinventory.googlecode.com
+
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always:delayed

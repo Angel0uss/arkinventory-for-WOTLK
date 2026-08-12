@@ -1,25 +1,20 @@
-﻿# 3.12.15 (23-JUL-2026)
- - updated - (bcc) toc to 2.5.6
- - updated - (classic) toc to 1.15.9
- - fixed - issue with mount location not initialising properly
-
-# known issues post 11.2
- - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
-
-# known issues
- - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
- - items with an active cooldown dont allow comparison tooltips to generate
- - cooldowns no longer start automatically.  you can close/open the bag to get them to show (if you enable that option).  all of the cooldown events ACTIONBAR_UPDATE_COOLDOWN, BAG_UPDATE_COOLDOWN, PET_BAR_UPDATE_COOLDOWN, SPELL_UPDATE_COOLDOWN, appear to trigger off other players as well, but do not provide any indication whether the event was triggered by you or them, so cooldowns will trigger window refreshes fairly constantly when you are around large numbers of players.  even limiting it to one update per second generated too much lag, especially in massive groups.
- - caged pets in the guild bank show up as caged pets, not the pet itself
- - the first time you click on a hyperlink in chat it wont show the item counts
+﻿# 3.1 (08-11-2026)
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*custom build 3.1 (Angelouss, on top of 3.02.54 BETA 17-00-Cataclysm)*
 
 
-# to do
- - double check all categories show/hide for the right clients
- - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
- - backpack tokens to scroll when max width reached on second line
- - extend the categoryset actions to individual items for additional granular control.
- - add action; move (bank to bag, bag to bank, bag to vault, vault to bag)
- - add actions to items
- - allow multiple actions on a category / item
- - secure action button for toybox (and keyring)
+ * optimized - halved per-item scan cost by merging the soulbound/BoP tooltip check into a single pass instead of two
+ * optimized - precomputed constant tooltip search patterns once instead of rebuilding them per item scanned
+ * optimized - removed 5 duplicate closure allocations when summing bag counts
+ * fixed - restack loop was re-querying bag slot count every iteration instead of once
+ * added - Find Duplicates: menu action + Config -> Duplicates checkbox, fades everything except items split across 2+ separate slots, auto-clears on bag/bank close
+ * added - "bag/slot position" is now a real, manageable sort criteria (previously a hidden fallback only)
+ * added - per-criteria Reverse toggle in Sort Methods, each criteria now has its own independent direction instead of one global ascending/descending
+ * fixed - vendor price sort could overflow on very high value stacks (widened padding)
+ * added - "manual order" sort criteria: hand-arrange item order within a category via Edit Mode -> right-click item -> Move Left/Right
+ * added - custom category display order: Config -> Categories -> pick a category -> Move Up/Move Down
+ * added - Value Order: for Quality, Equip Slot, and Item Type sort criteria, an inline collapsible list to set the exact order of values (eg Head before Chest before Shoulder) via Up/Down buttons
+
+
+
+

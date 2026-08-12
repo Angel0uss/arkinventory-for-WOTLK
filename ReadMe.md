@@ -1,10 +1,10 @@
-﻿# ArkInventory (for Midnight)
+﻿# ArkInventory (for WOTLK)
 
-**:boom: Please ensure you are using the latest alpha version if you have the Midnight client.**
+Arkinventory for WOTLK client 
 
 <br>
 
-# ArkInventory (for Retail, Classic, and Cataclysm)
+# ArkInventory (for WOTLK)
 
 ArkInventory's display windows are built from "virtual bars", you assign categories to bars so that items in that category are displayed on the specific bars you want. There is no limit to the number of bars you can have inside a window but obviously you only have so much screen real estate before it becomes "too many".
 
@@ -60,13 +60,6 @@ See [VersionHistory.md](https://github.com/arkayenro/arkinventory/blob/master/Ve
 
 ---
 
-### :boom: The NoLib variant
-
-it seems quite a few people are somehow getting the NoLib variant from their download client when they didn't specifically ask for it, instead of the full variant, and its causing issues as they don't have the required libraries installed separately. Please ensure you are downloading the full. if you see nolib in the filename then its the wrong variant, unless you are actually installing all of the required libraries separately as well. If you have to you can manually download the full variant from [CurseForge](https://www.curseforge.com/wow/addons/ark-inventory), [WoWInterface](https://www.wowinterface.com/downloads/info6488-ArkInventory.html), or [Wago](https://addons.wago.io/addons/arkinventory).
-
-### :boom: Junk Sell getting blocked
-
-While auto-destroy remains blocked, From 30960 onwards you can setup a Key Binding to manually sell and destroy your items. Note that blizzard require one keypress per item deletion, so if you have multiple items that need to be deleted you will need to press the Key Binding multiple times. A message will be output if you have remaining items that can still be deleted.
 
 ### :warning: Ensure you have backup copies of your saved variables file
 
